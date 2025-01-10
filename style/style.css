@@ -40,6 +40,8 @@ section{
     margin-bottom: 100px;
 }
 
+/* Style for Buttons */
+
 /* Main styles */
 
 
@@ -93,4 +95,26 @@ body {
 
 .sale-img img{
     width: 100%;
+}
+
+/* Styles for Party */
+
+#party {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.224)), url("../images/Vectorrr.png");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#party .party-container {
+    padding-left: 120px;
+    width: 50%;
+}
+
+#party .party-container h1{
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 25px;
 }
