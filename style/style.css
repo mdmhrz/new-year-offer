@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: poppins;
@@ -36,7 +36,7 @@
     margin-bottom: 18px;
 }
 
-section{
+section {
     margin-bottom: 100px;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 #banner {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.619)) , url("../images/Banner\ Image.png");
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.1)), url("../images/Banner\ Image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,6 +73,7 @@ body {
 
 #banner .banner-container h1 {
     font-size: 52px;
+    text-shadow: 2px 3px 5px rgb(17, 20, 2);
 }
 
 #banner .banner-container {
@@ -85,7 +86,7 @@ body {
     text-align: center;
 }
 
-#sale .sale-container h1{
+#sale .sale-container h1 {
     font-size: 62px;
 }
 
@@ -93,7 +94,7 @@ body {
     width: 60%;
 }
 
-.sale-img img{
+.sale-img img {
     width: 100%;
 }
 
@@ -113,8 +114,66 @@ body {
     width: 50%;
 }
 
-#party .party-container h1{
+#party .party-container h1 {
     font-size: 52px;
     line-height: 60px;
     margin-bottom: 25px;
+}
+
+.join-btn {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color .5s, color .5s;
+
+}
+
+.join-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.party-paragraph {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+/* Styling for Venue */
+
+#venue {
+    background-image: linear-gradient(to bottom, #ff00002b, #ff000000);
+    border-radius: 16px;
+    padding: 110px;
+    text-align: center;
+    height: 410px;
+}
+
+.venue-container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.venue-container button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    transition: background-color .5s;
+}
+
+.venue-container button:hover {
+    background-color: #d70505;
+}
+
+.venue-container h1 span {
+    color: #FF0000;
+    margin-right: 10px;
 }
