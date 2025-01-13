@@ -385,6 +385,10 @@ footer {
     gap: 10px
 }
 
+.ft-flex img {
+    width: 20px;
+}
+
 footer hr {
     border-color: rgba(128, 128, 128, 0.393);
 }
