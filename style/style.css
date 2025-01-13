@@ -45,7 +45,7 @@ section {
 /* Main styles */
 
 
-body {
+main {
     padding: 20px 140px;
 }
 
@@ -302,7 +302,7 @@ body {
 }
 
 #newsletter h1 {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 #newsletter form {
@@ -311,7 +311,7 @@ body {
 }
 
 #newsletter form input {
-    padding: 20px 20px;
+    padding: 15px 20px;
     font-size: 16px;
     border: none;
     outline: none;
@@ -319,8 +319,12 @@ body {
     width: 400px;
 }
 
+#newsletter form input::placeholder {
+    font-size: 12px;
+}
+
 #newsletter form button {
-    padding: 20px 20px;
+    padding: 15px 20px;
     background-color: #FF0000;
     border-radius: 0 20px 20px 0;
     border: none;
@@ -328,4 +332,59 @@ body {
     color: white;
     font-weight: bold;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color .5s;
+}
+
+#newsletter form button:hover {
+    background-color: #da0a0a;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 140px;
+    font-size: 12px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    margin-right: 15px;
+    width: 30px;
+}
+
+.rights-claim {
+    justify-content: space-between;
+}
+
+.rights-claim button {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rights-claim button:hover {
+    background-color: rgb(184, 182, 182);
+}
+
+.ft-flex {
+    justify-content: flex-end;
+    gap: 10px
+}
+
+footer hr {
+    border-color: rgba(128, 128, 128, 0.393);
 }
