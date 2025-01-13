@@ -207,7 +207,9 @@ body {
 
 .last-offer p,
 .first-offer p,
-#holiday p {
+#holiday p,
+.portfolio-desctiption p,
+#newsletter p {
     margin-bottom: 30px;
     color: rgba(7, 2, 17, 0.6);
     font-size: 12px;
@@ -228,6 +230,7 @@ body {
 #holiday {
     text-align: center;
 }
+
 
 .holiday-description {
     padding: 10px 150px;
@@ -260,5 +263,69 @@ body {
 
 .hl-img1 {
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.hl-img2 {
+    margin-top: 60px;
+}
+
+/* Style for Portfolio Section */
+
+.portfolio-container {
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.portfolio-container img {
+    width: 300px;
+}
+
+.portfolio-desctiption h6 {
+    color: #FF0000;
+    font-size: 24px;
+}
+
+.portfolio-desctiption h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+#newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 60px 200px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+#newsletter h1 {
+    font-size: 40px;
+}
+
+#newsletter form {
+    gap: 0;
+    margin-top: 32px;
+}
+
+#newsletter form input {
+    padding: 20px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    width: 400px;
+}
+
+#newsletter form button {
+    padding: 20px 20px;
+    background-color: #FF0000;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
