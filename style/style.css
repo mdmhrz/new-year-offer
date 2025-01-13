@@ -50,7 +50,7 @@ main {
 }
 
 #banner {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.1)), url("../images/Banner\ Image.png");
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.1)), url("../images/banner-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -253,7 +253,7 @@ main {
 }
 
 .holiday-image {
-    background-image: url("/images/Rectangle\ 2.png");
+    background-image: url("../images/rectangle-2.png");
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 100%;
