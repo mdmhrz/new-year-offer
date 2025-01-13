@@ -177,3 +177,88 @@ body {
     color: #FF0000;
     margin-right: 10px;
 }
+
+/* Styling for Best Offer */
+
+#best-offer .offers-container {
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 30%;
+}
+
+.middle-offer img {
+    border: 5px solid red;
+    border-radius: 50%;
+    width: 85%;
+    padding: 20px;
+    text-align: center;
+}
+
+.last-offer {
+    align-self: flex-end;
+}
+
+.last-offer img {
+    width: 100px;
+}
+
+.last-offer p,
+.first-offer p,
+#holiday p {
+    margin-bottom: 30px;
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 12px;
+}
+
+.last-offer h1,
+.first-offer h1 {
+    margin-bottom: 8px;
+}
+
+.last-offer h1,
+.first-offer h5 {
+    color: rgba(255, 0, 0, 1);
+}
+
+/* Styling for Holiday */
+
+#holiday {
+    text-align: center;
+}
+
+.holiday-description {
+    padding: 10px 150px;
+    margin-bottom: 60px;
+}
+
+#holiday span {
+    color: #FF0000;
+}
+
+#holiday h1 {
+    font-size: 64px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+#holiday h6 {
+    color: rgba(7, 2, 17, 1);
+    font-size: 20px;
+}
+
+.holiday-image {
+    background-image: url("/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    justify-content: space-between;
+}
+
+
+.hl-img1 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
